@@ -15,13 +15,13 @@ describe Numerics do
   
   it 'even test(true)' do
     assert {
-      Numerics.odd?(4) == true
+      Numerics.even?(4) == true
     }
   end
   
   it 'even test(false)' do
     assert {
-      Numerics.odd?(3) == false
+      Numerics.even?(3) == false
     }
   end
 end
